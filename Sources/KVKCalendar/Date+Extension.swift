@@ -166,7 +166,7 @@ public extension Date {
     }
     
     func kvkIsEqual(_ date: Date) -> Bool {
-        date.kvkYear == kvkYear && date.kvkMonth == kvkMonth && date.kvkDay == kvkDay
+        date.kvkDay == kvkDay && date.kvkMonth == kvkMonth && date.kvkYear == kvkYear
     }
     
     var kvkIsFebruary: Bool {
